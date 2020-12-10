@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Kamers</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="logo"><img src="images/logo.jpg" alt="foto van het logo"></h1>
+            <nav class="navigatie">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="kamers.html">Kamers</a></li>
+                    <li><a href="faciliteiten.html">Faciliteiten</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="reservatie.html">Reservatie</a></li>
+                    <li><a href="concertagenda.html">Concert agenda</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+<div class="contactgegevens">
+            <h1>Openingsuren:</h1>
+            <p></p>
+            <p>U kan ons ook altijd bereiken op het nummer: <span>015/99.52.66</span></p>
+        </div>
+        <div class="contactform">
+            <form>
+                <fieldset>
+                    <legend>Contacteer ons!</legend>
+                    <p>
+                        
+                        Geslacht:<br>
+                        <label>
+                            <input type="radio" name="geslacht">Man
+                        </label>
+                        <br>
+                        <label>
+                            <input type="radio" name="geslacht">Vrouw
+                        </label>
+                        <br>
+                    </p>
+                    <p>
+                        <label for="naam">Naam en voornaam:</label><br>
+                        <input type="text" id="naam" required="">
+                    </p>
+                    <p>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" required="">
+                    </p>
+                    <p>
+                        <label for="dienst">Vraag over:</label>
+                        <select name="dienst" id="dienst" required="">
+                            <option value="">--Kies een dienst</option>
+                            <option value="bestelling">Een reservatie</option>
+                            <option value="account">Beschikbaarheid</option>
+                            <option value="algemeen">Algemeen</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="bericht">Bericht:</label><br>
+                        <textarea name="bericht" id="bericht" cols="30" rows="10" required=""></textarea>
+                    </p>
+                    <p>
+                        <label>
+                            <input type="checkbox" required="">
+                            Ik ga akkoord met de privacy voorwaarden.</label>
+                    </p>
+                    <p>
+                        <button type="submit">
+                            <!-- <img src="images/send.jpg"> --> Verzenden
+                        </button>
+                        <input type="reset" value="Leegmaken">
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+
+
+
+        <footer>
+            <a href="contact.html">Contacteer ons</a>
+            <p>&copy; 2020 - Skull Pit Hotel</p>
+        </footer>
+</body>
+
+</html>
